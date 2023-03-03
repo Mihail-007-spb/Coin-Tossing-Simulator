@@ -24,9 +24,7 @@ def main():
                 elif not n.isdigit():
                     print()
                     print('Ошибка ввода! Введите только цифры.')
-                else:
-                    print()
-                    print('Ошибка ввода! Повторите ввод.')
+               
             while N != int(n):
                 g = randint(1, 2)
                 if g == 1:
